@@ -1,0 +1,20 @@
+webpack基础
+ 作用：一切都是模块化（js,css,图片等）
+ 一个米快加载器，打包工具
+
+
+----------------------------
+安装webpack
+流程：
+1.安装webpack命令环境
+	npm install webpack -g
+
+验证webpack -version有版本号说明安装完成
+
+2.package.josn  工程文件（需要以来的模块。库描述，版本，作者》》》）
+  npm init 生成工程文件
+3.安装本地的webpack  
+	cnpm install webpack -D  此处的D相当于--save -dev
+----------------------
+webpack第一个小李子
+	index.html

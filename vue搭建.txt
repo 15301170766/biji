@@ -1,0 +1,52 @@
+简单的目录结构
+
+1.index.html
+2.main.js        入口文件
+3.App.vue        vue 文件
+4.package.json   工程文件
+5.webpack.config.js    webpack配置文件
+
+
+
+
+es6模块化开发
+	1导出模块；
+		export default{}
+	2引入模块
+		import模块名称 from地址
+
+----------------------------------
+webpack准备工作
+	cnpm install webpack
+	cnpm install webpack-dev-server
+
+App.vue  ---->变成正常代码   vue-loader@8.5.4
+cnpm install vue-loader@8.5.4 --save -dev 
+
+cnpm install vue-html-loader --save-dev
+		vue-html-loader,css-loader,vue-style-loader,vue-hot-reload-api
+
+
+babel-loader
+babel-core
+babel-plugin-transform-runtime
+babel-preset-es2015
+babel-runtime
+
+最核心：
+
+--------------------
+脚手架：
+	vue-cli-vue脚手架  帮你提供好基本项目结构
+本身集成了很多项目模板 
+webpack webpack-simple
+browserify browserify-simple
+--------------------------------------------
+基本使用的流程  
+1.npm install vue-cli -g 安装vue命令环境
+  如何验证  vue --version
+2.生成项目模板
+	vue init <模板名> 本地文件名称
+3.进入生成目录里面
+ npm init
+4.npm run dev
